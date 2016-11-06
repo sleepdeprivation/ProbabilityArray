@@ -1,4 +1,4 @@
-object Start{
+object ProbabilityArray{
 
     val r = scala.util.Random
 
@@ -83,7 +83,7 @@ object Start{
         for(i <- 1 to 100){
             println(g.transition());
         }
-        //g.printMachine();
+        g.printMachine();
     }
 
 }
